@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/musicology/static/css/main.2db82316.chunk.css",
-    "main.js": "/musicology/static/js/main.86bebe70.chunk.js",
-    "main.js.map": "/musicology/static/js/main.86bebe70.chunk.js.map",
-    "runtime-main.js": "/musicology/static/js/runtime-main.3c041adf.js",
-    "runtime-main.js.map": "/musicology/static/js/runtime-main.3c041adf.js.map",
-    "static/js/2.a551c132.chunk.js": "/musicology/static/js/2.a551c132.chunk.js",
-    "static/js/2.a551c132.chunk.js.map": "/musicology/static/js/2.a551c132.chunk.js.map",
-    "static/js/3.b99365ee.chunk.js": "/musicology/static/js/3.b99365ee.chunk.js",
-    "static/js/3.b99365ee.chunk.js.map": "/musicology/static/js/3.b99365ee.chunk.js.map",
+    "main.js": "/musicology/static/js/main.e1a7b370.chunk.js",
+    "main.js.map": "/musicology/static/js/main.e1a7b370.chunk.js.map",
+    "runtime-main.js": "/musicology/static/js/runtime-main.53300d66.js",
+    "runtime-main.js.map": "/musicology/static/js/runtime-main.53300d66.js.map",
+    "static/js/2.df8d51ed.chunk.js": "/musicology/static/js/2.df8d51ed.chunk.js",
+    "static/js/2.df8d51ed.chunk.js.map": "/musicology/static/js/2.df8d51ed.chunk.js.map",
+    "static/js/3.c006f894.chunk.js": "/musicology/static/js/3.c006f894.chunk.js",
+    "static/js/3.c006f894.chunk.js.map": "/musicology/static/js/3.c006f894.chunk.js.map",
     "index.html": "/musicology/index.html",
     "static/css/main.2db82316.chunk.css.map": "/musicology/static/css/main.2db82316.chunk.css.map",
-    "static/js/2.a551c132.chunk.js.LICENSE.txt": "/musicology/static/js/2.a551c132.chunk.js.LICENSE.txt",
+    "static/js/2.df8d51ed.chunk.js.LICENSE.txt": "/musicology/static/js/2.df8d51ed.chunk.js.LICENSE.txt",
     "static/media/index.css": "/musicology/static/media/Oswald-SemiBold.031050ad.ttf",
     "static/media/badge-icon.dfdff5f6.png": "/musicology/static/media/badge-icon.dfdff5f6.png",
     "static/media/dance-tour-america.48e42698.png": "/musicology/static/media/dance-tour-america.48e42698.png",
@@ -27,9 +27,9 @@
     "static/media/whatsapp.944a9110.png": "/musicology/static/media/whatsapp.944a9110.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c041adf.js",
-    "static/js/2.a551c132.chunk.js",
+    "static/js/runtime-main.53300d66.js",
+    "static/js/2.df8d51ed.chunk.js",
     "static/css/main.2db82316.chunk.css",
-    "static/js/main.86bebe70.chunk.js"
+    "static/js/main.e1a7b370.chunk.js"
   ]
 }
