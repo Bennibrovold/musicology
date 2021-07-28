@@ -1,0 +1,1006 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-page {
+    min-height: 796px;
+    width: 100%;
+    background: url("../../assets/images/group-one-image.png") no-repeat;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+
+    .welcome-block {
+        margin-left: 82px;
+
+        .title {
+            line-height: 1.2;
+            font-size: 125px;
+            margin-bottom: 5px;
+        }
+
+        .description {
+            line-height: 1.2;
+            width: 640px;
+            font-family: "Montserrat";
+            font-size: 30px;
+            font-weight: 100;
+            margin-bottom: 37px;
+        }
+
+        .button {
+            width: 322px;
+            height: 65px;
+            margin-bottom: 83px;
+
+            button {
+                color: #fff;
+                padding: 20px 80px;
+                border-radius: 4px;
+                border: none;
+                background-color: #e8631c;
+                font-size: 29px;
+            }
+        }
+    }
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .title {
+        line-height: 1.2;
+        font-weight: bold;
+        text-align: center;
+        font-size: 75px;
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+
+    .description {
+        line-height: 1.2;
+        font-family: "Montserrat";
+        font-weight: 100;
+        text-align: center;
+        font-size: 30px;
+        width: 850px;
+        margin-bottom: 80px;
+    }
+}
+
+.dance-tour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #e8631c;
+
+    .card-gorup-wrapper {
+        width: 100%;
+    }
+
+    .card-group {
+        max-width: 100%;
+        flex-grow: 1;
+        margin: 0px 98px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .card-item {
+            width: 372px;
+            display: flex;
+            flex-direction: column;
+
+            .card-item__image {
+                height: 324px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .card-item__content {
+                padding: 30px;
+                background-color: #303030;
+            }
+
+            .card-item__content-title {
+                text-transform: uppercase;
+                text-align: center;
+                font-size: 37px;
+            }
+
+            .card-item__content-description {
+                margin-top: 20px;
+                text-align: center;
+                font-family: "Montserrat";
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+.pricing {
+    background-color: #303030;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+    .pricing-card-group-wrapper {
+        width: 100%;
+    }
+
+    .pricing-card-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px 85px;
+        margin-bottom: 100px;
+    }
+}
+
+.varyous-dance {
+    background-color: #E8631C;
+    width: 100%;
+    .varyous-dance-group {
+    }
+}
+
+.statistics {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #303030;
+
+    .statistics-group {
+        padding: 0px 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 185px;
+        margin-bottom: 250px;
+
+        .statistics-item {
+            width: 310px;
+            .statistics-item__number {
+                text-align: center;
+                font-family: "Oswald";
+                font-weight: bold;
+                font-size: 65px;
+                margin-bottom: 15px;
+            }
+
+            .statistics-item__name {
+                text-align: center;
+                font-family: "Montserrat";
+                font-weight: 100;
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+.review {
+    background-position-x: 50% !important; 
+    width: 100%;
+    height: 960px;
+    background: url("../../assets/images/review.png") no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .review-image {
+        width: 100%;
+        height: 100%;
+        background-color: #e8631c;
+        mix-blend-mode: multiply;
+    }
+
+    .review-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        .review-content__description {
+            width: 1000px;
+            text-align: center;
+            font-family: "Nunito";
+            font-weight: 100;
+            font-size: 50px;
+            margin-bottom: 60px;
+        }
+
+        .review-content__title {
+            text-transform: uppercase;
+            font-family: "Oswald";
+            font-weight: bold;
+            font-size: 60px;
+            text-align: center;
+        }
+    }
+}
+
+.subscribe {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8631c;
+
+    .subscribe-field {
+        form {
+            display: flex;
+            width: 770px;
+            height: 65px;
+
+            input {
+                padding-left: 30px;
+                font-family: "Montserrat";
+                font-weight: 100;
+                font-size: 25px;
+                border: none;
+                flex-grow: 1;
+            }
+
+            button {
+                background-color: #303030;
+                color: #fff;
+                font-size: 25px;
+                border: none;
+                width: 220px;
+            }
+        }
+        margin-bottom: 160px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    section {
+        .title {
+            font-size: 65px;
+        }
+
+        .description {
+            font-size: 25px;
+        }
+    }
+
+    .main-page {
+        min-height: 600px;
+        .welcome-block {
+            .title {
+                font-size: 110px;
+            }
+
+            .description {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .dance-tour {
+        .card-group {
+            justify-content: space-around;
+            margin-left: 0px;
+            margin-right: 0px;
+            .card-item {
+                width: 300px;
+
+                .card-item__image {
+                    height: auto;
+                    display: flex;
+                }
+
+                .card-item__content {
+                    .card-item__content-title {
+                        font-size: 32px;
+                    }
+
+                    .card-item__content-description {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    .pricing {
+        .pricing-card-group {
+            justify-content: space-around;
+            margin-left: 0px;
+            margin-right: 0px;
+            .pricing-card-item {
+                width: 300px;
+
+                .pricing-card-item__content {
+                    .pricing-card-item__content-title {
+                        font-size: 32px;
+                    }
+
+                    .pricing-card-item__content-description {
+                        font-size: 18px;
+                    }
+                }
+
+                .pricing-card-item__button {
+                    button {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+
+    .varyous-dance {
+        .varyous-dance-group {
+            .varyous-dance-item {
+                .varyous-dance-content-wrapper {
+                    .varyous-dance-item__content {
+                        width: 450px;
+                        .varyous-dance-item__content-title {
+                            font-size: 60px;
+                        }
+
+                        .varyous-dance-item__content-description {
+                            font-size: 25px;
+                        }
+
+                        .varyous-dance-item__content-button {
+                            button {
+                                font-size: 28px;
+                                width: 280px;
+                                height: 60px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .statistics {
+        .statistics-group {
+            margin-top: 100px;
+            margin-bottom: 200px;
+
+            .statistics-item {
+                .statistics-item__number {
+                    font-size: 55px;
+                }
+
+                .statistics-item__name {
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+
+    .review {
+        height: 800px;
+        .review-content {
+            .review-content__description {
+                width: 800px;
+                font-size: 42px;
+                margin-bottom: 50px;
+            }
+
+            .review-content__title {
+                font-size: 50px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .main-page {
+        .welcome-block {
+            .title {
+                font-size: 90px;
+            }
+
+            .description {
+                width: 500px;
+                font-size: 23px;
+            }
+
+            .button {
+                button {
+                    font-size: 25px;
+                    padding: 15px 60px;
+                }
+            }
+        }
+    }
+
+    section {
+        .title {
+            font-size: 55px;
+            margin-top: 60px;
+        }
+
+        .description {
+            width: 600px;
+            font-size: 23px;
+        }
+    }
+
+    .dance-tour {
+        .card-gorup-wrapper {
+            .card-group {
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .card-item {
+                    width: 500px;
+                    margin-top: 50px;
+
+                    &:first-child {
+                        margin-top: 0px;
+                    }
+
+                    .card-item__content {
+                        .card-item__content-title {
+                            font-size: 40px;
+                        }
+
+                        .card-item__content-description {
+                            font-size: 23px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .pricing {
+        .pricing-card-group-wrapper {
+            .pricing-card-group {
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .pricing-card-item {
+                    width: 500px;
+                    margin-top: 50px;
+
+                    &:first-child {
+                        margin-top: 0px;
+                    }
+
+                    .pricing-card-item__image {
+                        img {
+                            width: auto;
+                            height: 200px;
+                        }
+                    }
+
+                    .pricing-card-item__content {
+                        .pricing-card-item__content-title {
+                            font-size: 40px;
+                        }
+
+                        .pricing-card-item__content-description {
+                            font-size: 23px;
+                        }
+                    }
+
+                    .pricing-card-item__button {
+                        button {
+                            font-size: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .varyous-dance {
+        .varyous-dance-group {
+            .varyous-dance-item {
+                .varyous-dance-content-wrapper {
+                    .varyous-dance-item__content {
+                        width: 350px;
+                        height: 300px;
+                        .varyous-dance-item__content-title {
+                            font-size: 40px;
+                        }
+
+                        .varyous-dance-item__content-description {
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .statistics {
+        .statistics-group {
+            margin-top: 0px;
+            margin-bottom: 100px;
+            flex-direction: column;
+            padding: 0px;
+
+            .statistics-item {
+                width: 100%;
+                margin-top: 50px;
+
+                &:first-child {
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+
+    .review {
+        height: 650px;
+        .review-content {
+            .review-content__description {
+                font-size: 32px;
+                width: 600px;
+                margin-bottom: 40px;
+            }
+
+            .review-content__title {
+                font-size: 40px;
+            }
+        }
+    }
+
+    .subscribe {
+        .subscribe-field {
+            form {
+                width: 500px;
+                height: 55px;
+
+                input {
+                    font-size: 20px;
+                }
+
+                button {
+                    width: 180px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main-page {
+        margin-top: 102px;
+        min-height: 400px;
+
+        .welcome-block {
+            .title {
+                font-size: 75px;
+            }
+
+            .description {
+                font-size: 20px;
+                width: 450px;
+                margin-bottom: 30px;
+            }
+
+            .button {
+                width: auto;
+                height: auto;
+                margin-bottom: 40px;
+
+                button {
+                    padding: 10px 50px;
+                    font-size: 23px;
+                }
+            }
+        }
+    }
+
+
+
+    section {
+        .title {
+            margin: 40px 0px;
+            font-size: 50px;
+        }
+
+        .description {
+            width: 500px;
+            margin-bottom: 40px;
+            font-size: 20px;
+        }
+    }
+
+    .varyous-dance {
+        .varyous-dance-group {
+            .varyous-dance-item {
+                padding-bottom: 100px;
+
+                .varyous-dance-item__image {
+                    width: 40%;
+                    padding: 30px;
+
+                    img {
+                        border-radius: 4px;
+                    }
+                }
+
+                .varyous-dance-content-wrapper {
+                    width: 60%;
+                    .varyous-dance-item__content {
+                        width: 300px;
+                        height: 250px;
+                        
+                        .varyous-dance-item__content-title {
+                            font-size: 30px;
+                        }
+
+                        .varyous-dance-item__content-description {
+                            font-size: 18px;
+                        }
+
+                        .varyous-dance-item__content-button {
+                            button {
+                                font-size: 22px;
+                                width: 200px;
+                                height: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .main-page {
+        min-height: 350px;
+
+        .welcome-block {
+            margin-left: 41px;
+
+            .title {
+                font-size: 60px;
+            }
+
+            .description {
+                font-size: 18px;
+                line-height: 25px;
+                margin-bottom: 20px;
+                width: 400px;
+            }
+
+            .button {
+                margin-bottom: 30px;
+
+                button {
+                    padding: 8px 45px;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    section {
+        .title {
+            font-size: 40px;
+        }
+
+        .description {
+            font-size: 18px;
+            width: 370px;
+        }
+    }
+
+    .dance-tour {
+        .card-gorup-wrapper {
+            .card-group {
+                .card-item {
+                    width: 320px;
+
+                    .card-item__content {
+                        .card-item__content-title {
+                            font-size: 30px;
+                        }
+
+                        .card-item__content-description {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .pricing {
+        .pricing-card-group-wrapper {
+            .pricing-card-group {
+                .pricing-card-item {
+                    width: 320px;
+
+                    .pricing-card-item__image {
+                        img {
+                            height: 150px;
+                        }
+                    }
+
+                    .pricing-card-item__content {
+                        .pricing-card-item__content-title {
+                            font-size: 30px;
+                        }
+
+                        .pricing-card-item__content-description {
+                            font-size: 20px;
+                        }
+                    }
+
+                    .pricing-card-item__button {
+                        height: 55px;
+                        button {
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .varyous-dance {
+        .varyous-dance-group {
+            padding: 100px 0px;
+            .varyous-dance-item {
+                padding: 15px;
+
+                &:first-child {
+                    margin-bottom: 70px;
+                }
+
+                .varyous-dance-item__image {
+                    padding: 0px;
+                }
+
+                .varyous-dance-content-wrapper {
+                    .varyous-dance-item__content {
+                        width: 250px;
+                        height: 200px;
+
+                        .varyous-dance-item__content-title {
+                            font-size: 25px;
+                        }
+
+                        .varyous-dance-item__content-description {
+                            font-size: 15px;
+                            line-height: 22px;
+                        }
+
+                        .varyous-dance-item__content-button {
+                            button {
+                                font-size: 20px;
+                                width: 150px;
+                                height: 45px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .statistics {
+        .statistics-group {
+            .statistics-item {
+                .statistics-item__number {
+                    font-size: 45px;
+                }
+
+                .statistics-item__name {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+    .review {
+        height: 450px;
+
+        .review-content {
+            .review-content__description {
+                font-size: 25px;
+                width: 400px;
+                margin-bottom: 20px;
+            }
+
+            .review-content__title {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .subscribe {
+        .subscribe-field {
+            margin-bottom: 100px;
+
+            form {
+                width: 320px;
+                height: 50px;
+
+                input {
+                    width: 70%;
+                }
+
+                button {
+                    font-size: 18px;
+                    width: 30%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    section {
+        .title {
+            margin: 30px 0px;
+            font-size: 35px;
+        }
+
+        .description { 
+            width: 100%;
+            font-size: 16px;
+            margin-bottom: 60px;
+        }
+    }
+
+    .main-page {
+        background-position-x: 80%;
+        .welcome-block {
+            height: 100%;
+            margin: 0px;
+            padding: 0px 15px;
+            width: 100%;
+            text-align: center;
+
+            .title {
+                font-size: 55px;
+            }
+
+            .description {
+                width: 100%;
+                font-size: 20px;
+            }
+
+            .button {
+                margin-bottom: 60px;
+                button {
+                    padding: 15px 50px;
+                }
+            }
+        }
+    }
+
+    .dance-tour {
+        padding: 0px 15px;
+        .card-gorup-wrapper {
+            .card-group {
+                .card-item {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .pricing {
+        padding: 0px 15px;
+
+        .pricing-card-group-wrapper {
+            .pricing-card-group {
+                .pricing-card-item {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .varyous-dance {
+        .varyous-dance-group {
+            .varyous-dance-item {
+
+                .varyous-dance-item__image {
+                    margin-right: 15px;
+                }
+
+                .image-pos-right {
+                    margin-right: 0px;
+                    margin-left: 15px;
+                }
+
+                .varyous-dance-content-wrapper {
+                    .varyous-dance-item__content {
+                        width: 100%;
+                        height: 100%;
+                        text-align: center;
+
+                        .varyous-dance-item__content-description {
+                            margin: 20px 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .statistics {
+        padding: 0px 15px;
+    }
+
+    .review {
+        .review-content {
+            padding: 0px 15px;
+
+            .review-content__description {
+                width: 100%;
+            }
+
+            .review-content__title {
+                width: 100%;
+            }
+        }
+    }
+
+    .subscribe {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .subscribe {
+        .subscribe-field {
+            margin-bottom: 50px;
+
+            form {
+                width: 100%;
+            }
+        }
+    }
+
+    .varyous-dance {
+        .varyous-dance-group {
+            .varyous-dance-item {
+                .varyous-dance-content-wrapper {
+                    .varyous-dance-item__content {
+                        .varyous-dance-item__content-title {
+                            font-size: 20px;
+                        }
+
+                        .varyous-dance-item__content-description {
+                            margin: 15px 0px;
+                            font-size: 13px;
+                        }
+
+                        .varyous-dance-item__content-button {
+                            button {
+                                width: 100%;
+                                height: 35px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

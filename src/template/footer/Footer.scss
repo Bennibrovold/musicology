@@ -1,0 +1,179 @@
+footer {
+    padding-top: 115px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: #303030;
+
+    .section-group {
+        margin-left: 45px;
+        margin-right: 55px;
+        display: flex;
+        flex-direction: row;
+
+        .section-item {
+            &:first-child {
+                flex-grow: 1;
+                padding: 11px;
+
+                .title {
+                    padding: 0px;
+                }
+            }
+
+            .title {
+                text-transform: uppercase;
+                font-family: "Oswald";
+                font-weight: 100;
+                font-size: 32px;
+                padding: 11px;
+            }
+
+            .description {
+                line-height: 30px;
+                hyphens: auto;
+                font-family: "Montserrat";
+                font-weight: 100;
+                font-size: 22px;
+                width: 470px;
+                margin: 26px 0px;
+            }
+
+            ul {
+                margin: 0px;
+                padding: 0px;
+                li {
+                    font-family: "Montserrat";
+                    font-weight: 100;
+                    font-size: 22px;
+                    list-style: none;
+                    padding: 11px;
+                }
+            }
+
+            .socials {
+                display: flex;
+                flex-direction: row;
+
+                .social-item {
+                    margin-right: 16px;
+
+                    &:last-child {
+                        margin-right: 0px;
+                    }
+
+                    img {
+                        width: 44px;
+                        height: 44px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    footer {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        .section-group {
+            margin-left: 25px;
+            margin-right: 25px;
+
+            .section-item {
+                .title {
+                    font-size: 28px;
+                }
+
+                ul {
+                    li {
+                        font-size: 18px;
+                    }
+                }
+
+                .description {
+                    width: 360px;
+                    font-size: 18px;
+                }
+
+                .socials {
+                    .social-item {
+                        img {
+                            width: 38px;
+                            height: 38px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 990px) {
+    footer {
+        padding: 40px 0px;
+
+        .section-group {
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .section-item {
+
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                .description {
+                    text-align: center;
+                    width: 500px;
+                }
+
+                &:first-child {
+                    width: 100%;
+                    margin-bottom: 40px;
+
+                    .title {
+                        font-size: 35px;
+                    }
+                }
+
+                &:not(:first-child) {
+                    flex: 1;
+                }
+
+                ul {
+                    li {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 667px) {
+    footer {
+        .section-group {
+            flex-direction: column;
+            .section-item {
+                .description {
+                    width: 400px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        .section-group {
+            margin-left: 15px;
+            margin-right: 15px;
+            flex-direction: column;
+            .section-item {
+                .description {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
