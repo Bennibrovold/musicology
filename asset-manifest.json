@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/musicology/static/css/main.9b348582.chunk.css",
+    "main.css": "/musicology/static/css/main.ba806458.chunk.css",
     "main.js": "/musicology/static/js/main.abd83ece.chunk.js",
     "main.js.map": "/musicology/static/js/main.abd83ece.chunk.js.map",
     "runtime-main.js": "/musicology/static/js/runtime-main.f0bb5b1c.js",
@@ -10,7 +10,7 @@
     "static/js/3.6ddbef35.chunk.js": "/musicology/static/js/3.6ddbef35.chunk.js",
     "static/js/3.6ddbef35.chunk.js.map": "/musicology/static/js/3.6ddbef35.chunk.js.map",
     "index.html": "/musicology/index.html",
-    "static/css/main.9b348582.chunk.css.map": "/musicology/static/css/main.9b348582.chunk.css.map",
+    "static/css/main.ba806458.chunk.css.map": "/musicology/static/css/main.ba806458.chunk.css.map",
     "static/js/2.5bc2aec0.chunk.js.LICENSE.txt": "/musicology/static/js/2.5bc2aec0.chunk.js.LICENSE.txt",
     "static/media/index.css": "/musicology/static/media/Oswald-SemiBold.031050ad.ttf",
     "static/media/badge-icon.dfdff5f6.png": "/musicology/static/media/badge-icon.dfdff5f6.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.f0bb5b1c.js",
     "static/js/2.5bc2aec0.chunk.js",
-    "static/css/main.9b348582.chunk.css",
+    "static/css/main.ba806458.chunk.css",
     "static/js/main.abd83ece.chunk.js"
   ]
 }
