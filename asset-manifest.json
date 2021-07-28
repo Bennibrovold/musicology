@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/musicology/static/css/main.2db82316.chunk.css",
+    "main.js": "/musicology/static/js/main.86bebe70.chunk.js",
+    "main.js.map": "/musicology/static/js/main.86bebe70.chunk.js.map",
+    "runtime-main.js": "/musicology/static/js/runtime-main.3c041adf.js",
+    "runtime-main.js.map": "/musicology/static/js/runtime-main.3c041adf.js.map",
+    "static/js/2.a551c132.chunk.js": "/musicology/static/js/2.a551c132.chunk.js",
+    "static/js/2.a551c132.chunk.js.map": "/musicology/static/js/2.a551c132.chunk.js.map",
+    "static/js/3.b99365ee.chunk.js": "/musicology/static/js/3.b99365ee.chunk.js",
+    "static/js/3.b99365ee.chunk.js.map": "/musicology/static/js/3.b99365ee.chunk.js.map",
+    "index.html": "/musicology/index.html",
+    "static/css/main.2db82316.chunk.css.map": "/musicology/static/css/main.2db82316.chunk.css.map",
+    "static/js/2.a551c132.chunk.js.LICENSE.txt": "/musicology/static/js/2.a551c132.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/musicology/static/media/Oswald-SemiBold.031050ad.ttf",
+    "static/media/badge-icon.dfdff5f6.png": "/musicology/static/media/badge-icon.dfdff5f6.png",
+    "static/media/dance-tour-america.48e42698.png": "/musicology/static/media/dance-tour-america.48e42698.png",
+    "static/media/dance-tour-asia.c22a5669.png": "/musicology/static/media/dance-tour-asia.c22a5669.png",
+    "static/media/dance-tour-australia.042601cd.png": "/musicology/static/media/dance-tour-australia.042601cd.png",
+    "static/media/facebook.3416ddc2.png": "/musicology/static/media/facebook.3416ddc2.png",
+    "static/media/main.scss": "/musicology/static/media/review.b487c444.png",
+    "static/media/instagram.83c9a057.png": "/musicology/static/media/instagram.83c9a057.png",
+    "static/media/logo.8f790fd5.png": "/musicology/static/media/logo.8f790fd5.png",
+    "static/media/twitter.97045ba2.png": "/musicology/static/media/twitter.97045ba2.png",
+    "static/media/varyous-one.c45dcb51.png": "/musicology/static/media/varyous-one.c45dcb51.png",
+    "static/media/varyous-two.f3296a6a.png": "/musicology/static/media/varyous-two.f3296a6a.png",
+    "static/media/whatsapp.944a9110.png": "/musicology/static/media/whatsapp.944a9110.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c041adf.js",
+    "static/js/2.a551c132.chunk.js",
+    "static/css/main.2db82316.chunk.css",
+    "static/js/main.86bebe70.chunk.js"
+  ]
+}
